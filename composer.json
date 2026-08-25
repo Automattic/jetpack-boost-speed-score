@@ -6,7 +6,7 @@
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"brain/monkey": "^2.6",
-		"automattic/phpunit-select-config": "^1.0.9"
+		"automattic/phpunit-select-config": "^1.0.10-alpha"
 	},
 	"autoload-dev": {
 		"psr-4": {
@@ -14,8 +14,8 @@
 		}
 	},
 	"require": {
-		"php": ">=7.2",
-		"automattic/jetpack-boost-core": "^0.4.8"
+		"php": ">=7.4",
+		"automattic/jetpack-boost-core": "^0.5.0-alpha"
 	},
 	"autoload": {
 		"classmap": [
@@ -38,7 +38,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.4.x-dev"
+			"dev-trunk": "0.5.x-dev"
 		},
 		"textdomain": "jetpack-boost-speed-score",
 		"version-constants": {
